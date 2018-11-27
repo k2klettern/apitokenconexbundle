@@ -1,0 +1,30 @@
+{
+  "name" : "k2klettern/apitokenconexbundle",
+  "description" : "Service Class to get a token thru headers, renew and use it",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "apitokenconexbundle",
+    "email" : "eric@zeidan.es"
+  }],
+  "keywords" : [
+    "Api Token Conex Bundle"
+  ],
+  "license" : [
+    "MIT"
+  ],
+  "require" : {
+  },
+  "autoload" : {
+    "psr-0" : {
+      "K2klettern\\ApiTokenConexBundle" : ""
+    }
+  },
+  "target-dir" : "K2klettern/ApiTokenConexBundle",
+  "repositories" : [{
+  }],
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "1.0.x-dev"
+    }
+  }
+}
