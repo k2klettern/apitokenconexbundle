@@ -1,4 +1,14 @@
+parameters:
+  array_token:
+    user:   "wkz.test"
+    secret:   "9kUoCaDJ3YIcq"
+    tokenurl: "https://kennzeichen-admin.nettraders.biz/token/get"
+
 services:
 #    api_token_conex.example:
 #        class: K2klettern\ApiTokenConexBundle\Example
 #        arguments: ["@service_id", "plain_value", "%parameter%"]
+
+  api_token_conex.apitokenhelper:
+      class: K2klettern\ApiTokenConexBundle\Services\ApiTokenHelper
+      arguments: [%array_token%]
