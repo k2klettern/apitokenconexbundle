@@ -1,0 +1,4 @@
+services:
+#    api_token_conex.example:
+#        class: K2klettern\ApiTokenConexBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
